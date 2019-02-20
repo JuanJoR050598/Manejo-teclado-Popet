@@ -42,6 +42,12 @@ void loop() {
             servoDerecho.write(90);
             servoIzquierdo.write(180);
             break; 
+
+            case 'q':case'Q':
+            servoDerecho.write(90);
+            servoIzquierdo.write(90);
+            break; 
+
             
       
       
